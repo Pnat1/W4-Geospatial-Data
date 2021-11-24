@@ -1,5 +1,5 @@
 # P3_Geospatial_Data
-![portada](https://www.acquia.com/sites/acquia.com/files/styles/desktop_hero_image_1x/public/images/2017-12/GettyImages-838600642.jpg?itok=kXtdMcha)
+![portada](https://media.istockphoto.com/photos/modern-office-interior-picture-id1136436814)
 ​
 # Objetive
 The objective of this project is to determine the best office location for a new company in the gaming industry. 
@@ -20,8 +20,6 @@ Based on all the information given by the employees, the first filters I applied
  3. Close to coffee, food or bar joints to satify a proper work life balance
 ​
 # Working plan 
-​
-![workingflow](https://github.com/AnaAGG/P3_Geospatial_Data/blob/main/Images/Work_Flow.jpg)
 ​
 First, I started by filtering a Crunchbase tech-company database using MongoDB. I obtained a set of XXX companies with coordinates located in **Madrid, London, and Berlin**. 
 ​
