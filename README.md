@@ -2,7 +2,7 @@
 ![portada](https://www.acquia.com/sites/acquia.com/files/styles/desktop_hero_image_1x/public/images/2017-12/GettyImages-838600642.jpg?itok=kXtdMcha)
 ​
 # Objetive
-The objective of this project is to determine the perfect location for a new company in the gaming industry. 
+The objective of this project is to determine the best office location for a new company in the gaming industry. 
 ​
 - **Designers** --> near to companies that do design.
 - **30% of the company** --> have at least 1 child.
@@ -15,26 +15,25 @@ The objective of this project is to determine the perfect location for a new com
 - **Dog—"Dobby"** --> hairdresser every month. 
 ​
 Based on all the information given by the employees, the first filters I applied to look for possible locations were:
- 1. Spanish companies.
- 2. In the web sector to be surrounded by companies that are in a similar sector to ours.
- 3. With less than 50 employees, to be surrounded by small companies like us
- 4. Created since 2007 to be surrounded by young companies. 
+ 1. Near other tech companies for potential business between them.
+ 2. Close to public transport stops for comfortable employee mobility.
+ 3. Close to coffee, food or bar joints to satify a proper work life balance
 ​
 # Working plan 
 ​
 ![workingflow](https://github.com/AnaAGG/P3_Geospatial_Data/blob/main/Images/Work_Flow.jpg)
 ​
-Before first filtering using MongoDB I obtained a set of XXX companies with coordinates located in **Madrid, Barcelona, Bilbao, Gijón**. 
+First, I started by filtering a Crunchbase tech-company database using MongoDB. I obtained a set of XXX companies with coordinates located in **Madrid, London, and Berlin**. 
 ​
-The coordinates were used to realice the API Foursquare calls using Bars, Preschool, Court Basketball, vegan restaurants and train stations. 
+The coordinates were used to realice the Google Geocode, Places, and Nearby Places  APIS calls using "Tech Companies", "Cafeteria/Bars", and "Public Transport" as my keyword searches.
 ​
-Once all the information was downloaded in json format, I made a calculation of the distances between the coordinates of origin and the information obtained from Foursquare. 
+Once all the information was downloaded in json format, 
 ​
 For the final decision of the location I have made a normalisation and assigned weights to the distances obtained. In the end, a ranking was obtained on which the final decision was based. 
 ​
 The following resources have been used to achieve the objective of this project: 
 ​
--  [Foursquare API](https://foursquare.com/): get access to global data and  content from thousands trusted sources. To access all the necessary information about the resources surrounding the possible locations of the enterprise. 
+-  [Google Cloud Api](https://cloud.google.com/apis/docs/overview): get access to global data and  content from thousands trusted sources. To access all the necessary information about the resources surrounding the possible locations of the enterprise. 
 - [MongoDB](https://www.mongodb.com/): is a document database with the scalability and flexibility that we want using querying and indexing.
 ​
 ​
